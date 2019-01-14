@@ -7,6 +7,8 @@ function rps (a, b) {
     return "Scissors wins"
   } else if (a === 'rock' && b === 'paper') {
     return "Paper wins"
+  } else if (a === 'paper' && b === 'scissors') {
+    return "Scissors wins"
   }
 }
 module.exports = rps

@@ -16,6 +16,6 @@ test('expect rock to loose to paper', () => {
   expect(rps('rock', 'paper')).toBe('Paper wins')
 })
 
-test|('expect paper to loose to scissors' () => {
+test('expect paper to loose to scissors', () => {
   expect(rps('paper', 'scissors')).toBe('Scissors wins')
 })
