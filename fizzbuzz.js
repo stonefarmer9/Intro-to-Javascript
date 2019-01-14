@@ -1,13 +1,13 @@
 
-const fizzbuzz = (number) => {
+function fizzbuzz (number) {
   if (number % 3 === 0 && number % 5 === 0) {
-    console.log('FIZZBUZZ!')
+    return 'FIZZBUZZ!'
   } else if (number % 3 === 0) {
-    console.log('FIZZ!')
+    return 'FIZZ!'
   } else if (number % 5 === 0) {
-    console.log('BUZZ!')
+    return 'BUZZ!'
   } else {
-    console.log(number)
+    return number
   }
 }
 
@@ -18,3 +18,4 @@ fizzbuzz(17) // 17
 fizzbuzz(11) // 11
 fizzbuzz(10) // BUZZ
 fizzbuzz(75) // FIZZBUZZ
+module.exports = fizzbuzz
